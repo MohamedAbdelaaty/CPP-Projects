@@ -181,6 +181,12 @@ int main(void) {
 
 
 	} while (gameIsNotWon);
-
+	
+	system("cls");
+	system("clear");
+	cout << "Congratulations, you have completed level 1!" << endl;
+	
+	// output something useful here perhaps?
+	
 	return 0;
 }
